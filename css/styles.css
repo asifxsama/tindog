@@ -4,13 +4,6 @@
 body{
     font-family: 'Ubuntu', sans-serif;
 }
-h1{
-    font-family: 'Montserrat', sans-serif;;
-    font-size: 4rem;
-    line-height: 1.5;
-    font-weight: 900;
-}
-
 .title-tindog{
     /*padding-left: 1%;*/
     font-family: 'Ubuntu', sans-serif;
@@ -21,22 +14,31 @@ h1{
     padding: 3% 15% 7%;
 }
 .first-title{
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 4rem;
+    line-height: 1.5;
+    font-weight: 900;
     color: #fff;
+}
+.tagline{
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 5%;
+    padding-right: 1%;
 }
 .navbar{
     padding-bottom: 0 0 4.5rem;
 }
 .nav-item{
     padding: 0px 15px;
+    
 }
 .nav-link{
     font-family: 'Ubuntu', sans-serif;
-    /* font-weight: lighter; */
+    color: #fff;
 }
 .title-dog{
     width: 25%;
     rotate: 25deg;
-    /* right: 95%; */
     position: absolute;
 }
 .download-btn{
@@ -74,7 +76,7 @@ h3{
 }
 
 /* Testimonial Section */
-h2{
+.testimonial-text{
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -82,7 +84,7 @@ h2{
     line-height: 1.5;
 }
 #testimonials{
-    
+    padding-bottom: 10%;
     text-align: center;
     background-color: #ef8172;
 }
@@ -155,4 +157,48 @@ h2{
 .bottom-icon {
     margin: 10px 20px;
     zoom: 150%;
+}
+
+/* For Mobile Resolution */
+
+@media (max-width:900px){
+    .title-dog{
+        width: 50%;
+        rotate: 15deg;
+        position: relative;
+        /* margin-left: 25%;
+        margin-top: 3%; */
+    }
+    .first-title{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3rem;
+        line-height: 1.5;
+        font-weight: 900;
+        color: #fff;
+        text-align: center;
+    }
+    .testimonial-text{
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 1.5;
+    }
+    .press-pic{
+        width: 25%;
+    }
+    .cta-heading{
+        line-height: 1.75;
+    }
+    /* .container-fluid{
+        padding: 5% 7.5%;
+    } */
+    .tagline{
+        margin-top: 2px;
+        margin-right: 15%;
+        font-size: 0.75rem;
+    }
+    .row{
+        text-align: center;
+    }
 }
