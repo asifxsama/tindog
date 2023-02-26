@@ -161,7 +161,7 @@ h3{
 /* For Mobile Resolution */
 
 
-@media (hover: none) {
+/* @media (hover: none) */ @media only screen and (max-device-width: 480px)  {
     .title-tindog{
         font-family: 'Ubuntu', sans-serif;
         font-size: 3rem;
