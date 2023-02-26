@@ -84,7 +84,7 @@ h3{
     line-height: 1.5;
 }
 #testimonials{
-    padding-bottom: 10%;
+    padding-bottom: 1%;
     text-align: center;
     background-color: #ef8172;
 }
@@ -161,13 +161,12 @@ h3{
 
 /* For Mobile Resolution */
 
-@media (max-width:900px){
+
+@media (hover: none) {
     .title-dog{
         width: 50%;
         rotate: 15deg;
         position: relative;
-        /* margin-left: 25%;
-        margin-top: 3%; */
     }
     .first-title{
         font-family: 'Montserrat', sans-serif;
@@ -185,14 +184,14 @@ h3{
         line-height: 1.5;
     }
     .press-pic{
-        width: 25%;
+        width: 35%;
     }
     .cta-heading{
         line-height: 1.75;
     }
-    /* .container-fluid{
-        padding: 5% 7.5%;
-    } */
+    .container-fluid{
+        padding: 1%;
+    }
     .tagline{
         margin-top: 2px;
         margin-right: 15%;
@@ -200,5 +199,9 @@ h3{
     }
     .row{
         text-align: center;
+    }
+    .bottom-icon {
+        margin: 10px 20px;
+        zoom: 200%;
     }
 }
